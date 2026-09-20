@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="胡书恬 · 个人学术主页 | Hu Shutian · Academic Homepage">
+<meta name="author" content="胡书恬">
+<title>胡书恬 · 个人学术主页</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f4e79'/%3E%3Ctext x='16' y='23' font-size='18' text-anchor='middle' fill='white' font-family='sans-serif'%3EH%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ===== 顶部导航（按钮由 script.js 生成） ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-inner">
+    <a class="brand" href="#/" id="brand">个人主页</a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="菜单 / Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks" aria-label="主导航"></nav>
+
+    <div class="lang-switch" role="group" aria-label="语言 / Language">
+      <button type="button" class="lang-btn" data-lang="zh">中文</button>
+      <button type="button" class="lang-btn" data-lang="en">English</button>
+    </div>
+  </div>
+  <div class="nav-progress" id="navProgress"></div>
+</header>
+
+<!-- ===== 主内容（由 script.js 渲染） ===== -->
+<main id="app" class="site-main">
+  <div class="state-box">
+    <div class="spinner" aria-hidden="true"></div>
+    <p class="state-text">正在加载内容…</p>
+  </div>
+</main>
+
+<!-- ===== 页脚 ===== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p id="footerText"></p>
+    <p class="footer-note" id="footerNote"></p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部">↑</button>
+
+<script src="data/content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
